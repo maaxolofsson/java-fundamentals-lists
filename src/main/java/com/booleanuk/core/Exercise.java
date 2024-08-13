@@ -43,7 +43,9 @@ public class Exercise extends ExerciseBase {
         TODO: 1. Create a method named getSecondNumber that returns a whole number. It must return the
            second number contained in the list that is returned from getFavouriteNumbers
      */
-
+    public int getSecondNumber(){
+        return this.getFavouriteNumbers().get(1);
+    }
 
 
     /*
