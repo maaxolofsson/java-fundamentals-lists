@@ -68,7 +68,9 @@ public class Exercise extends ExerciseBase {
          - A list of strings
          The method must return a boolean that indicates whether the provided list is empty or not
      */
-
+    public boolean isEmpty(ArrayList<String> list) {
+        return list.isEmpty();
+    }
 
 
     /*
