@@ -79,7 +79,10 @@ public class Exercise extends ExerciseBase {
          - A string
          The method must add the second parameter into the list provided and then return the list
      */
-
+    public ArrayList<String> addIngredient(ArrayList<String> list, String string) {
+        list.add(string);
+        return list;
+    }
 
 
     /*
@@ -88,7 +91,10 @@ public class Exercise extends ExerciseBase {
          - A string
          The method must remove the second parameter from the list and then return the list
      */
-
+    public ArrayList<String> removeIngredient(ArrayList<String> list, String string) {
+        list.remove(string);
+        return list;
+    }
 
 
     /*
@@ -97,6 +103,8 @@ public class Exercise extends ExerciseBase {
          - A string
          The method must return a boolean that indicates whether the second parameter exists in the provided list
      */
-
+    public boolean containsIngredient(ArrayList<String> list, String string) {
+        return list.contains(string);
+    }
 
 }
